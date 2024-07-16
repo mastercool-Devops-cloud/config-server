@@ -21,3 +21,15 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+
+microservices:
+  fx-client-info-services:
+    endpoints:
+      endpoint:
+        uri: http://fx-client-info-services/fx-client/findcif/
+
+microservices:
+  nbfi-ad-services:
+    endpoints:
+      endpoint:
+        uri: http://nbfi-ad-services/nbfi-ad/test_ad_details/
