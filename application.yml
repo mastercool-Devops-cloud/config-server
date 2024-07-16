@@ -28,7 +28,7 @@ microservices:
       endpoint:
         uri: http://fx-client-info-services/fx-client/findcif/
 
-microservices:
+microservice:
   nbfi-ad-services:
     endpoints:
       endpoint:
